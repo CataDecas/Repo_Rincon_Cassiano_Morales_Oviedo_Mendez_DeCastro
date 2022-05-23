@@ -16,23 +16,32 @@
 <h2>📌 Problemas planteados: </h2> <br>
   <h2>1. ¿Como influyen diferentes parametros en el tiempo de ejecucion? </h2><br>
   Solución: <br>
+  📍 Parámetro Genoma:<br>
   - Para parametro genoma 10 > 0:00:00.906180 <br>
   - Para parametro genoma 100 > 0:00:05.961513 <br>
   - Para parametro genoma 1000 > 0:01:01.429062 <br>
   - Para parametro genoma 2000 > 0:02:05.462562 <br>
+  <br>
+   📍 Parámetro Tamaño Población:<br>
   - Para parametro tamaño poblacion 10 > 0:00:00.129723  <br>
   - Para parametro tamaño poblacion 100 > 0:00:01.209316  <br>
   - Para parametro tamaño poblacion 1000 > 0:00:15.966701  <br>
   - Para parametro tamaño poblacion 2000 > 0:00:25.712003  <br>
+  <br>
+   📍 Parámetro Probabilidad de Mutación:<br>
   - Para parametro probabilidad de mutacion 0.01 > 0:00:01.212672 <br>
   - Para parametro probabilidad de mutacion 0.1 > 0:00:01.339554 <br>
   - Para parametro probabilidad de mutacion 0.5 > 0:00:02.343851 <br>
   - Para parametro probabilidad de mutacion 0.8 > 0:00:03.183847 <br>
   - Para parametro probabilidad de mutacion 1 > 0:00:03.867119 <br>
+  -  <br>
+   📍 Parámetro Generaciones:<br>
   - Para parametro generaciones 10 > 0:00:00.124242 <br>
   - Para parametro generaciones 100 > 0:00:01.226541 <br>
   - Para parametro generaciones 1000 > 0:00:11.809732 <br>
   - Para parametro generaciones 2000 > 0:00:22.985334 <br>
+  -  <br>
+   📍 Parámetro Rango de Busqueda:<br>
   - Para parametro rango de busqueda [0, 1] > 0:00:01.130410 <br>
   - Para parametro rango de busqueda [0, 2] > 0:00:01.140615 <br>
 <h2>2. Análisis de la complejidad del logarítmo:</h2><br>
