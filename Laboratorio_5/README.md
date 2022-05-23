@@ -34,13 +34,13 @@
   - Para parametro probabilidad de mutacion 0.5 > 0:00:02.343851 <br>
   - Para parametro probabilidad de mutacion 0.8 > 0:00:03.183847 <br>
   - Para parametro probabilidad de mutacion 1 > 0:00:03.867119 <br>
-  -  <br>
+  <br>
    📍 Parámetro Generaciones:<br>
   - Para parametro generaciones 10 > 0:00:00.124242 <br>
   - Para parametro generaciones 100 > 0:00:01.226541 <br>
   - Para parametro generaciones 1000 > 0:00:11.809732 <br>
   - Para parametro generaciones 2000 > 0:00:22.985334 <br>
-  -  <br>
+  <br>
    📍 Parámetro Rango de Busqueda:<br>
   - Para parametro rango de busqueda [0, 1] > 0:00:01.130410 <br>
   - Para parametro rango de busqueda [0, 2] > 0:00:01.140615 <br>
