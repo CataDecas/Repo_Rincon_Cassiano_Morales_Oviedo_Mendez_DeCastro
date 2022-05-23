@@ -2,7 +2,7 @@
 <p align="center"><strong>Laboratorio 5</strong> </p>
 <br>
 
-<p>El laboratorio 5 consistió en maximizar una función no lineal a partir de algoritmos genéticos.
+<p>El laboratorio 5 consistió en maximizar una función positiva a partir de algoritmos genéticos.
 <br>
   
 <p>
@@ -44,11 +44,12 @@
    📍 Parámetro Rango de Busqueda:<br>
   - Para parametro rango de busqueda [0, 1] > 0:00:01.130410 <br>
   - Para parametro rango de busqueda [0, 2] > 0:00:01.140615 <br>
-<h2>2. Análisis de la complejidad del logarítmo:</h2><br>
+<h2>2. Análisis de la complejidad del algoritmo:</h2><br>
   Al hacer un analisis de complejidad del algoritmo, la complejidad simplificada que se obtiene es de O(n^3).<br>
   Aunque, especificamente, la complejidad del algoritmo en funcion de sus parametros podria describirse como: O(Generaciones⋅TamañoPoblacion⋅LongitudDelGenoma).<br>
 <h2>3. ¿Qué parámetro es más relevante para acelerar la convergencia de la búsqueda?</h2> <br>
   Para acelerar la velocidad de convergencia, los tres parametros mas importantes a disminuir son la cantidad de generaciones, el tamaño de la poblacion, o el tamaño del genoma. Aunque cabe resaltar que a pesar de que la velocidad de convergencia sera menor, tambien puede hacer que la busqueda sea menos precisa, ya que a medida que es mayor el valor de dichos parametros, el algoritmo prueba mas posibilidades de individuos, lo cual puede llevar a encontrar una mejor solución.
+  Aunque, si se tuviera que seleccionar un solo parámetro para acelerar la convergencia de la búsqueda, para el caso de la implementación realizada por el grupo seria la Longitud del genoma. Esto debido a que en las pruebas este parametro fue el que tuvo mayor impacto en el tiempo de ejecucion, entonces al disminuirlo, aumentaria en mayor medida la velocidad del algoritmo y de convergencia.
 <br>
 </p>
 <br>
