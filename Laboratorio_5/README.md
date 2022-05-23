@@ -13,8 +13,8 @@
 <br>
 </p>
 <p>
-📌 Problemas planteados:
-  1. ¿Como influyen diferentes parametros en el tiempo de ejecucion? <br>
+📌 Problemas planteados: <br>
+  <h2>1. ¿Como influyen diferentes parametros en el tiempo de ejecucion? </h2><br>
   Solución: <br>
   - Para parametro genoma 10 > 0:00:00.906180 <br>
   - Para parametro genoma 100 > 0:00:05.961513 <br>
@@ -35,10 +35,10 @@
   - Para parametro generaciones 2000 > 0:00:22.985334 <br>
   - Para parametro rango de busqueda [0, 1] > 0:00:01.130410 <br>
   - Para parametro rango de busqueda [0, 2] > 0:00:01.140615 <br>
-2. Análisis de la complejidad del logarítmo:<br>
+<h2>2. Análisis de la complejidad del logarítmo:</h2><br>
   Al hacer un analisis de complejidad del algoritmo, la complejidad simplificada que se obtiene es de O(n^3).<br>
   Aunque, especificamente, la complejidad del algoritmo en funcion de sus parametros podria describirse como: O(Generaciones⋅TamañoPoblacion⋅LongitudDelGenoma).<br>
-3. ¿Qué parámetro es más relevante para acelerar la convergencia de la búsqueda? <br>
+<h2>3. ¿Qué parámetro es más relevante para acelerar la convergencia de la búsqueda?</h2> <br>
   Para acelerar la velocidad de convergencia, los tres parametros mas importantes a disminuir son la cantidad de generaciones, el tamaño de la poblacion, o el tamaño del genoma. Aunque cabe resaltar que a pesar de que la velocidad de convergencia sera menor, tambien puede hacer que la busqueda sea menos precisa, ya que a medida que es mayor el valor de dichos parametros, el algoritmo prueba mas posibilidades de individuos, lo cual puede llevar a encontrar una mejor solución.
 <br>
 </p>
