@@ -6,14 +6,14 @@
 <br>
   
 <p>
-📑 Requerimientos:
-- Parámetros: Tamaño_genoma_Individuos, Tamaño_población, Probabilidad_Mutación, Generaciones, Función_a_Optimizar, Rango_de_Busqueda.<br>
-- Calculo y graficado de Error promedio de la población actual, en función de las generaciones. <br>
-- Almacenamiento y graficado del mejor individuo por generación. <br>
+<h2>Requerimientos:</h2> <br>
+✅ Parámetros: Tamaño_genoma_Individuos, Tamaño_población, Probabilidad_Mutación, Generaciones, Función_a_Optimizar, Rango_de_Busqueda.<br>
+✅Calculo y graficado de Error promedio de la población actual, en función de las generaciones. <br>
+✅Almacenamiento y graficado del mejor individuo por generación. <br>
 <br>
 </p>
 <p>
-📌 Problemas planteados: <br>
+<h2>📌 Problemas planteados: </h2> <br>
   <h2>1. ¿Como influyen diferentes parametros en el tiempo de ejecucion? </h2><br>
   Solución: <br>
   - Para parametro genoma 10 > 0:00:00.906180 <br>
