@@ -3,10 +3,16 @@
 <br>
 
 <p>El laboratorio 6 consistió en crear un perceptron que pudiera clasificar entre dos clases de uva (Kecimen y Besni)</p>
+<p>Para realizar el laboratorio se uso el dataset Raisin, el cual incluye datos sobre 2 variedades de uvas pasas (Kecimen y Besni). El Dataset contiene 900 registros, de los cuales la mitad corresponden a uvas Kecimen y la otra mitad a uvas Besni. Cada registro contiene los siguientes datos:
+Area, Perimeter, MajorAxisLength, MinorAxisLength, Eccentricity, ConvexArea, Extend y Class (Kecimen, Besni).
+
+En este caso solo se utilizaran los datos MajorAxisLength y Extent como datos de entrada del perceptron, a partir de ellos se intento clasificar las uvas como tipo Besni o Kecimen.
+
+El dataset esta disponible en https://archive.ics.uci.edu/ml/datasets/Raisin+Dataset</p>
 <br>
 <p>
-<h2>Requerimientos:</h2> <br>
-✅ Parámetros: eta (tasa de aprendizaje defualt = 0.1), n_iter número de iteraciones que se realizan en el entrenamiento,
+<h2>Requerimientos:</h2>
+✅ Parámetros del Perceptron: eta (tasa de aprendizaje defualt = 0.1), n_iter número de iteraciones que se realizan en el entrenamiento,
 x cantidad de registros y numero_caracteristicas es la cantidad de características de un registro.<br>
 
 
