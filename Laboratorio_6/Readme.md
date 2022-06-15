@@ -4,7 +4,6 @@
 
 <p>El laboratorio 6 consistió en crear un perceptron que pudiera clasificar entre dos clases de uva (Kecimen y Besni)</p>
 <br>
-  
 <p>
 <h2>Requerimientos:</h2> <br>
 ✅ Parámetros: eta (tasa de aprendizaje defualt = 0.1), n_iter número de iteraciones que se realizan en el entrenamiento,
