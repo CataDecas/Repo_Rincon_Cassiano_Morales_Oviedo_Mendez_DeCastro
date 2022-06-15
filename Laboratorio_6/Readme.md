@@ -1,5 +1,5 @@
 <h1 align="center">Grupo 7 - Algoritmos 2022-1</h1>
-<p align="center"><strong>Laboratorio 5</strong> </p>
+<p align="center"><strong>Laboratorio 6</strong> </p>
 <br>
 
 <p>El laboratorio 6 consistió en crear un percepton que pudiera clasificar entre dos clases de uva (Kecimen y Besni)</p>
