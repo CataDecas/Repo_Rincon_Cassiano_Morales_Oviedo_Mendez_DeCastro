@@ -15,7 +15,7 @@ El dataset esta disponible en https://archive.ics.uci.edu/ml/datasets/Raisin+Dat
 ✅ Parámetros del Perceptron: eta (tasa de aprendizaje defualt = 0.1), n_iter número de iteraciones que se realizan en el entrenamiento,
 x cantidad de registros y numero_caracteristicas es la cantidad de características de un registro.<br>
 ✅ Graficas de los datos de cada clase de uva. (Disponibles en el archivo Lab6.ipynb)<br>
-✅ Calcular exactitud del perceptron en la clasificación (54%).<br>
+✅ Calcular error del perceptron en la clasificación (51%).<br>
 
 
 <h2>Analisis de complejidad especifica y generalizada</h2>
@@ -46,9 +46,9 @@ En el dataset utilizado, las dos caracteristicas tomadas (MajorAxisLength y Exte
 
 Los datos de las Uvas Kecimen y Besni no son separables, esto se puede observar cuando se graficaron las uvas en funcion de las caracteristicas MajorAxisLength y Extend las uvas eran muy parecidas entre si y sus puntos se ubicaban en casi la misma region. (Graficas disponibles en el archivo Lab6.ipynb)
 
-Ademas puede observar que en todas las iteraciones en el entramiento el perceptron comete muchos errores (entre 348 y 360) lo cual hace que actualice muchas veces su pesos, y se puede observar que no hay una tendencia a que la cantidad de errores disminuya, ya que es muy dificil distinguir los dos tipos de uvas a pesar del entrenamiento.
+Ademas puede observar que en todas las iteraciones en el entrenamiento el perceptron comete muchos errores (entre 345 y 348) lo cual hace que actualice muchas veces su pesos, y se puede observar que no hay una tendencia a que la cantidad de errores disminuya, ya que es muy dificil distinguir los dos tipos de uvas a pesar del entrenamiento.
 
-Es por ello que el perceptron tiene un porcentaje de error alto del **46**% al realizar las pruebas, las uvas son muy parecidas entre si, entonces el perceptron no puede ajustar los pesos de sus conexiones para poder distinguirlas y se equivoca al intentar clasificarlas.
+Es por ello que el perceptron tiene un porcentaje de error alto del **51**% al realizar las pruebas, las uvas son muy parecidas entre si, entonces el perceptron no puede ajustar los pesos de sus conexiones para poder distinguirlas y se equivoca al intentar clasificarlas.
 </p>
 
 <h2>Referencias</h2>
