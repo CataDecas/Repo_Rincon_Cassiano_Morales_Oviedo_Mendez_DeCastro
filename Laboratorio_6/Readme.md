@@ -14,7 +14,7 @@ El dataset esta disponible en https://archive.ics.uci.edu/ml/datasets/Raisin+Dat
 <h2>Requerimientos del programa:</h2>
 ✅ Parámetros del Perceptron: eta (tasa de aprendizaje defualt = 0.1), n_iter número de iteraciones que se realizan en el entrenamiento,
 x cantidad de registros y numero_caracteristicas es la cantidad de características de un registro.<br>
-✅ Graficas de los datos de cada clase de uva.<br>
+✅ Graficas de los datos de cada clase de uva. (Disponibles en el archivo Lab6.ipynb)<br>
 ✅ Calcular exactitud del perceptron en la clasificación (54%).<br>
 
 
@@ -44,7 +44,7 @@ Si se generaliza la complejidad del programa obtenida en la anterior seccion, se
 <p>
 En el dataset utilizado, las dos caracteristicas tomadas (MajorAxisLength y Extent) no son lo suficientemente distinguibles entre las uvas Kecimen y las uvas Besni como para que el perceptron pueda clasificarlas. 
 
-Los datos de las Uvas Kecimen y Besni no son separables, esto se puede observar cuando se graficaron las uvas en funcion de las caracteristicas MajorAxisLength y Extend las uvas eran muy parecidas entre si y sus puntos se ubicaban en casi la misma region.
+Los datos de las Uvas Kecimen y Besni no son separables, esto se puede observar cuando se graficaron las uvas en funcion de las caracteristicas MajorAxisLength y Extend las uvas eran muy parecidas entre si y sus puntos se ubicaban en casi la misma region. (Graficas disponibles en el archivo Lab6.ipynb)
 
 Ademas puede observar que en todas las iteraciones en el entramiento el perceptron comete muchos errores (entre 348 y 360) lo cual hace que actualice muchas veces su pesos, y se puede observar que no hay una tendencia a que la cantidad de errores disminuya, ya que es muy dificil distinguir los dos tipos de uvas a pesar del entrenamiento.
 
