@@ -2,7 +2,7 @@
 <p align="center"><strong>Laboratorio 6</strong> </p>
 <br>
 
-<p>El laboratorio 6 consistió en crear un percepton que pudiera clasificar entre dos clases de uva (Kecimen y Besni)</p>
+<p>El laboratorio 6 consistió en crear un perceptron que pudiera clasificar entre dos clases de uva (Kecimen y Besni)</p>
 <br>
   
 <p>
